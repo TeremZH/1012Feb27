@@ -3,12 +3,14 @@ using System.ComponentModel.DataAnnotations;
 
 class ClassProgramming
 {
-    public static void Display()
+    public static int Display()
     {
-        Console.WriteLine("Use of methods");
+        return (5);
+
     }
     public static void Main(string[] args)
     {
-        Display();
+       Display();
+
     }
 }
