@@ -5,7 +5,8 @@ class ClassProgramming
 {
     public static int Display()
     {
-        return (5);
+        int b = 5;
+        return (b*b);
 
     }
     public static void Main(string[] args)
